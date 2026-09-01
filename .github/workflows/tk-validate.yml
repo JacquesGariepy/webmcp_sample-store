@@ -1,0 +1,15 @@
+name: tk validate
+on: [push, pull_request]
+permissions: { contents: read }
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      # Pin these two actions to commit SHAs before relying on this in production (e.g. actions/checkout@<sha> # v4.2.2).
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: npm i -g github:JacquesGariepy/tk        # once published: npm i -g tk-agent-tasks@0.4.6
+      - run: TK_HOME=$PWD tk config --json
+      - run: TK_HOME=$PWD tk validate --json          # exit 3 on unreadable lines, schema drift, unknown dependencies, contested claims
+      - run: TK_HOME=$PWD tk status --all
