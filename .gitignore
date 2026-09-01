@@ -1,0 +1,5 @@
+projects/**/.lock
+.tk-git.lock
+*.tmp
+backups/
+quarantine/

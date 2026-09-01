@@ -1,0 +1,1 @@
+projects/**/*.jsonl merge=union text eol=lf

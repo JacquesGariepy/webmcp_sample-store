@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "lang": "en",
+  "git": {
+    "autoSync": "commit"
+  },
+  "policy": {},
+  "projects": {
+    "webmcp": {
+      "repos": [],
+      "tracker": {
+        "provider": "github",
+        "channel": "cli",
+        "writes": {
+          "awaiting_human": null,
+          "in_review": null,
+          "in_progress": null
+        }
+      },
+      "owners": [
+        "jacques.gariepy@aspynai.com"
+      ]
+    }
+  }
+}
