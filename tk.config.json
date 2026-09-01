@@ -12,9 +12,21 @@
         "provider": "github",
         "channel": "cli",
         "writes": {
-          "awaiting_human": null,
-          "in_review": null,
-          "in_progress": null
+          "in_progress": {
+            "labels": [
+              "in-progress"
+            ]
+          },
+          "awaiting_human": {
+            "labels": [
+              "needs-decision"
+            ]
+          },
+          "in_review": {
+            "labels": [
+              "in-review"
+            ]
+          }
         }
       },
       "owners": [
