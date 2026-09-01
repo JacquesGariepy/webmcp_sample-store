@@ -7,7 +7,9 @@
   "policy": {},
   "projects": {
     "webmcp": {
-      "repos": [],
+      "repos": [
+        "JacquesGariepy/webmcp_sample"
+      ],
       "tracker": {
         "provider": "github",
         "channel": "cli",
@@ -34,9 +36,7 @@
       ]
     },
     "webmcp-sample": {
-      "repos": [
-        "JacquesGariepy/webmcp_sample"
-      ]
+      "repos": []
     }
   }
 }
