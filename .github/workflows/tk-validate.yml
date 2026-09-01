@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: "22" }
-      - run: npm i -g git+https://github.com/JacquesGariepy/tk.git   # once published: npm i -g tk-agent-tasks@0.4.6
+      - run: npm i -g https://github.com/JacquesGariepy/tk/tarball/main   # once published: npm i -g tk-agent-tasks@0.4.6
       - run: TK_HOME=$PWD tk config --json
       - run: TK_HOME=$PWD tk validate --json          # exit 3 on unreadable lines, schema drift, unknown dependencies, contested claims
       - run: TK_HOME=$PWD tk status --all
