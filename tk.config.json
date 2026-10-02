@@ -35,5 +35,36 @@
         "jacques.gariepy@aspynai.com"
       ]
     }
+  },
+  "workflow": {
+    "taskTypes": [
+      "epic",
+      "feature",
+      "deliverable",
+      "task",
+      "implementation",
+      "bugfix",
+      "defect",
+      "refactor",
+      "security",
+      "database_migration",
+      "test",
+      "research",
+      "spike",
+      "documentation",
+      "design",
+      "architecture",
+      "integration",
+      "release",
+      "deployment",
+      "requirements",
+      "discovery",
+      "governance",
+      "audit",
+      "review",
+      "pr_review",
+      "maintenance",
+      "incident"
+    ]
   }
 }

@@ -1,0 +1,12 @@
+{
+  "harnesses": [
+    {
+      "id": "factory",
+      "detect": [
+        "FACTORY_PROJECT_ROOT",
+        "FACTORY_STATE_DIR"
+      ],
+      "kind": "service"
+    }
+  ]
+}
