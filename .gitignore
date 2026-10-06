@@ -3,3 +3,5 @@ projects/**/.lock
 *.tmp
 backups/
 quarantine/
+.tk-compaction.json
+.tk-projection/
