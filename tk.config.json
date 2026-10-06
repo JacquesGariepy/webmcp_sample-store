@@ -86,7 +86,6 @@
     "model": "jev-1.13.0",
     "apiKeyEnv": "TYPESAFE_API_KEY",
     "allowedProjects": [
-      "factory",
       "webmcp"
     ],
     "expectedServedModel": "jev-1.13.0"
