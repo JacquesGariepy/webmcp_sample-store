@@ -79,5 +79,16 @@
       "notification": 1,
       "jevAssessment": 1
     }
+  },
+  "jev": {
+    "mode": "shadow",
+    "provider": "typesafe",
+    "model": "jev-1.13.0",
+    "apiKeyEnv": "TYPESAFE_API_KEY",
+    "allowedProjects": [
+      "factory",
+      "webmcp"
+    ],
+    "expectedServedModel": "jev-1.13.0"
   }
 }
