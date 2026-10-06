@@ -66,5 +66,18 @@
       "maintenance",
       "incident"
     ]
+  },
+  "requiredReplayFeatures": {
+    "schema": "tk.required-replay-features/v1",
+    "eventVersion": 2,
+    "features": {
+      "taskMove": 1,
+      "leaseReap": 1,
+      "conditionalAbandon": 1,
+      "routingDecision": 1,
+      "approval": 1,
+      "notification": 1,
+      "jevAssessment": 1
+    }
   }
 }
